@@ -35,7 +35,7 @@ export function render(root, app) {
 
     <fieldset class="choice-group">
       <legend>Клас місії</legend>
-      <p class="group-hint">Як у NASA: більше грошей — вищі очікування від науки. Бюджет включає ракету, апарат і роботу команди.</p>
+      <p class="group-hint">Назви класів як у NASA, а суми умовні: масштаб підібрано за справжніми місіями. Більше грошей — вищі очікування від науки. Бюджет охоплює ракету, апарат, прилади, посадку, роботу команди й резерв.</p>
       <div class="choices" data-field="cls">
         ${data.mission.classes.map((x) => `
           <button type="button" class="choice" data-id="${esc(x.id)}" aria-pressed="${build.cls === x.id}">
