@@ -1,0 +1,307 @@
+{
+  "_note": "Фото для мініатюр і вікна «Детальніше». Усі 42 фото взято з NASA Image and Video Library; nasa_id, назву й автора записано з API NASA, а розміри кожного файлу в пікселях збігаються з розмірами зображення NASA за цим ID. Для lidar і big_battery підходящого фото не знайдено. Щоб замінити фото, впишіть інший nasa_id і запустіть: npm run images -- --force",
+  "falcon9": {
+    "query": "Falcon 9 launch",
+    "nasa_id": "NHQ202409270003",
+    "title": "NASA’s SpaceX Crew-9 Falcon 9/Dragon Rollout",
+    "credit": "NASA/HQ",
+    "url": "https://images.nasa.gov/details/NHQ202409270003"
+  },
+  "falcon_heavy": {
+    "query": "Falcon Heavy launch Psyche",
+    "nasa_id": "NHQ201906240103",
+    "title": "SpaceX Falcon Heavy DoD STP-2 Launch",
+    "credit": "NASA/HQ",
+    "url": "https://images.nasa.gov/details/NHQ201906240103"
+  },
+  "atlas_v_541": {
+    "query": "Atlas V Perseverance launch",
+    "nasa_id": "KSC-20200730-PH-FMX01_0042",
+    "title": "Mars 2020 Liftoff",
+    "credit": "NASA/KSC",
+    "url": "https://images.nasa.gov/details/KSC-20200730-PH-FMX01_0042"
+  },
+  "vulcan": {
+    "query": "Vulcan Centaur launch",
+    "nasa_id": "KSC-20210826-PH-KLS01_0073",
+    "title": "ULA Vulcan Rocket Unveiled at SLC-41",
+    "credit": "NASA/KSC",
+    "url": "https://images.nasa.gov/details/KSC-20210826-PH-KLS01_0073"
+  },
+  "antares": {
+    "query": "Antares rocket launch",
+    "nasa_id": "201304210020HQ",
+    "title": "Antares Rocket Test Launch",
+    "credit": "NASA/HQ",
+    "url": "https://images.nasa.gov/details/201304210020HQ"
+  },
+  "mars": {
+    "query": "Mars globe Hubble",
+    "nasa_id": "PIA02992",
+    "title": "Mars Digital Image Mosaic Globe",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA02992"
+  },
+  "moon": {
+    "query": "full Moon",
+    "nasa_id": "KSC-20240819-PH-JBS01_0009",
+    "title": "Creative Photography - Full Blue Moon",
+    "credit": "NASA/KSC",
+    "url": "https://images.nasa.gov/details/KSC-20240819-PH-JBS01_0009"
+  },
+  "asteroid": {
+    "query": "Bennu OSIRIS-REx",
+    "nasa_id": "2019-02-25_regolith_image_compilation",
+    "title": "A Region of Bennu’s Northern Hemisphere Close Up",
+    "credit": "NASA/GSFC",
+    "url": "https://images.nasa.gov/details/2019-02-25_regolith_image_compilation"
+  },
+  "venus": {
+    "query": "Venus Mariner 10",
+    "nasa_id": "PIA23791",
+    "title": "Venus from Mariner 10",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA23791"
+  },
+  "europa": {
+    "query": "Europa Galileo",
+    "nasa_id": "PIA21431",
+    "title": "Highest-resolution Europa Image & Mosaic from Galileo",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA21431"
+  },
+  "orbiter": {
+    "query": "Mars Reconnaissance Orbiter",
+    "nasa_id": "PIA04758",
+    "title": "Artist Concept of Mars Reconnaissance Orbiter",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA04758"
+  },
+  "lander": {
+    "query": "InSight lander",
+    "nasa_id": "PIA22571",
+    "title": "InSight Lander with Solar Arrays Deployed",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA22571"
+  },
+  "rover_small": {
+    "query": "Opportunity rover",
+    "nasa_id": "PIA08812",
+    "title": "The Opportunity Rover at Victoria Crater",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA08812"
+  },
+  "rover_large": {
+    "query": "Perseverance rover",
+    "nasa_id": "PIA24542",
+    "title": "Perseverance’s Selfie with Ingenuity",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA24542"
+  },
+  "sampler": {
+    "query": "OSIRIS-REx spacecraft",
+    "nasa_id": "GSFC_20171208_Archive_e000397",
+    "title": "NASA’s OSIRIS-REx Spacecraft In Thermal Vacuum Testing",
+    "credit": "NASA/GSFC",
+    "url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000397"
+  },
+  "cam_hires": {
+    "query": "HiRISE camera",
+    "nasa_id": "PIA07210",
+    "title": "Mars Reconnaissance Orbiter After Camera Installation",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA07210"
+  },
+  "ir_spectrometer": {
+    "query": "CRISM instrument",
+    "nasa_id": "PIA09343",
+    "title": "CRISM First Targeted Observation of Mars",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA09343"
+  },
+  "orbital_radar": {
+    "query": "SHARAD radar",
+    "nasa_id": "PIA26555",
+    "title": "SHARAD’s View of Mars During a ‘Very Large Roll’",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA26555"
+  },
+  "sar": {
+    "query": "Magellan spacecraft",
+    "nasa_id": "s30-71-063",
+    "title": "IUS with Magellan spacecraft drifts into space",
+    "credit": "NASA/JSC",
+    "url": "https://images.nasa.gov/details/s30-71-063"
+  },
+  "neutron": {
+    "query": "DAN instrument Curiosity",
+    "nasa_id": "PIA16082",
+    "title": "Location of DAN on Curiosity",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA16082"
+  },
+  "magnetometer": {
+    "query": "MAVEN magnetometer",
+    "nasa_id": "PIA24786",
+    "title": "Europa Clipper Magnetometer (ECM) Boom",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA24786"
+  },
+  "panorama_cam": {
+    "query": "Mastcam-Z",
+    "nasa_id": "PIA22101",
+    "title": "MASTCAM-Z",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA22101"
+  },
+  "laser_spectrometer": {
+    "query": "SuperCam",
+    "nasa_id": "PIA24208",
+    "title": "SuperCam Mast Unit",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA24208"
+  },
+  "gpr": {
+    "query": "RIMFAX",
+    "nasa_id": "PIA24048",
+    "title": "Testing RIMFAX for NASA’s Perseverance Rover",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA24048"
+  },
+  "seismometer": {
+    "query": "InSight SEIS seismometer",
+    "nasa_id": "PIA23177",
+    "title": "InSight’s Seismometer on the Martian Surface",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA23177"
+  },
+  "weather": {
+    "query": "MEDA Perseverance",
+    "nasa_id": "PIA24339",
+    "title": "Perseverance’s Weather Sensors Deployed",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA24339"
+  },
+  "drill": {
+    "query": "Perseverance sample tube",
+    "nasa_id": "PIA24808",
+    "title": "Perseverance Sample Tube 266",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA24808"
+  },
+  "moxie": {
+    "query": "MOXIE",
+    "nasa_id": "PIA24176",
+    "title": "Engineers Lower MOXIE into Perseverance",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA24176"
+  },
+  "mass_spectrometer": {
+    "query": "MASPEX",
+    "nasa_id": "PIA26439",
+    "title": "Europa Clipper: Equipped for Discovery (Artist’s Concept)",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA26439"
+  },
+  "lidar": {
+    "query": "OLA laser altimeter",
+    "skip": true,
+    "note": "у NASA Image Library не знайдено підхожого фото — лишається ілюстрація"
+  },
+  "sample_arm": {
+    "query": "TAGSAM",
+    "nasa_id": "jsc2023e058644",
+    "title": "OSIRIS-REx - Flipping the TAGSAM jsc2023e058644",
+    "credit": "NASA/JSC",
+    "url": "https://images.nasa.gov/details/jsc2023e058644"
+  },
+  "solar_s": {
+    "query": "CubeSat solar panels",
+    "nasa_id": "PIA22458",
+    "title": "TEMPEST-D Spacecraft",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA22458"
+  },
+  "solar_m": {
+    "query": "InSight solar array",
+    "nasa_id": "PIA22205",
+    "title": "InSight Lander Solar Array Test",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA22205"
+  },
+  "solar_l": {
+    "query": "Juno solar array",
+    "nasa_id": "PIA13925",
+    "title": "Juno Solar Panel Deployment Test",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA13925"
+  },
+  "solar_xl": {
+    "query": "Europa Clipper solar array",
+    "nasa_id": "PIA26067",
+    "title": "Europa Clipper Solar Arrays Stowed for Launch",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA26067"
+  },
+  "rtg_1": {
+    "query": "MMRTG",
+    "nasa_id": "PIA23306",
+    "title": "Mars 2020’s MMRTG",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA23306"
+  },
+  "rtg_2": {
+    "query": "Cassini RTG",
+    "nasa_id": "KSC-97PC1066",
+    "title": "KSC-97PC1066",
+    "credit": "NASA/KSC",
+    "url": "https://images.nasa.gov/details/KSC-97PC1066"
+  },
+  "lga": {
+    "query": "low gain antenna spacecraft",
+    "nasa_id": "PIA00661",
+    "title": "Forward Ramp & Low Gain Antenna",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA00661"
+  },
+  "hga_small": {
+    "query": "Perseverance high-gain antenna",
+    "nasa_id": "PIA24045",
+    "title": "Port Side of Perseverance",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA24045"
+  },
+  "hga_large": {
+    "query": "Mars Reconnaissance Orbiter antenna",
+    "nasa_id": "05pd1113",
+    "title": "KSC-05pd-1113",
+    "credit": "NASA/KSC",
+    "url": "https://images.nasa.gov/details/05pd1113"
+  },
+  "relay_uhf": {
+    "query": "Mars Odyssey",
+    "nasa_id": "PIA04244",
+    "title": "Artist Concept of Mars Odyssey",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA04244"
+  },
+  "backup_antenna": {
+    "query": "Galileo high-gain antenna",
+    "nasa_id": "PIA23616",
+    "title": "Galileo in High Bay 1",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA23616"
+  },
+  "big_battery": {
+    "query": "spacecraft battery",
+    "skip": true,
+    "note": "у NASA Image Library не знайдено підхожого фото — лишається ілюстрація"
+  },
+  "radiation_vault": {
+    "query": "Juno radiation vault",
+    "nasa_id": "PIA13256",
+    "title": "Inspecting Juno Radiation Vault",
+    "credit": "NASA/JPL",
+    "url": "https://images.nasa.gov/details/PIA13256"
+  }
+}

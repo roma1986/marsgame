@@ -1,0 +1,27 @@
+{
+  "name": "architect-misii",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Mission Architect («Архітектор місії»): a space mission design game for the 2026 NASA Space Apps Challenge",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "check": "node tools/check-data.js",
+    "balance": "node tools/montecarlo.js 10000",
+    "build:single": "node tools/build-single.mjs",
+    "images": "node tools/fetch-nasa-images.mjs",
+    "checklist": "node tools/sources-checklist.mjs",
+    "demo-check": "node tools/demo-check.mjs",
+    "lint": "eslint .",
+    "verify": "npm run check && npm run check-text && npm run lint && npm run demo-check",
+    "check-text": "node tools/check-text.mjs",
+    "images:check": "node tools/fetch-nasa-images.mjs --check",
+    "thumbs": "node tools/make-thumbs.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.2",
+    "eslint": "^9.39.5",
+    "globals": "^15.15.0"
+  },
+  "aiDisclosure": "Idea and scenario: the team. Code, most texts and part of the data: generated with the AI assistant Claude (Anthropic) under the team's direction. See README.en.md."
+}
